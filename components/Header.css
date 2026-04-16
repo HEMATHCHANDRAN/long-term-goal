@@ -1,0 +1,41 @@
+.header {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.user-goal {
+  background: #f0f0f0;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.goal-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.goal-text {
+  color: #667eea;
+  font-weight: 500;
+}

@@ -1,0 +1,39 @@
+.floating-progress {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 12px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.floating-progress:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.floating-icon {
+  font-size: 24px;
+}
+
+.floating-stats {
+  text-align: center;
+}
+
+.floating-percent {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.floating-label {
+  font-size: 10px;
+  opacity: 0.9;
+}
